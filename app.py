@@ -6,7 +6,6 @@ import google.generativeai as genai
 import warnings
 from streamlit_extras.add_vertical_space import add_vertical_space
 from mediapipe.python.solutions import hands, drawing_utils
-from dotenv import load_dotenv
 
 # Hide excessive warnings
 warnings.filterwarnings("ignore", category=UserWarning)
